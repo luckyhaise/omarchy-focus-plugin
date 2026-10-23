@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "luckydubey.focus",
+  "name": "Focus",
+  "version": "1.0.0",
+  "author": "Lucky Dubey",
+  "description": "Study timer for the Omarchy bar: subjects, background sessions, stats and charts",
+  "kinds": [
+    "overlay",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "FocusPanel.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Focus",
+    "description": "Focus timer \u2014 live countdown, click to open the panel",
+    "category": "Status",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
